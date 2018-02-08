@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="TimeoutValue">
+        <item>No timeout</item>
+        <item>1 sec</item>
+        <item>3 sec</item>
+        <item>5 sec</item>
+        <item>10 sec</item>
+        <item>15 sec</item>
+        <item>30 sec</item>
+    </string-array>
+</resources>

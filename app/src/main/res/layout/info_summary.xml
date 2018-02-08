@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.androiddevelop.wakeup.com.cogwheelSoft.androiddevelop.wakeup.Settings_Preferences"
+    android:background="@color/FloatingButtonColor">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUMMARY"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/MyModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model : "
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/MyBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand : "
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/MyDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device : "
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/MyVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android version : "
+        android:textSize="15sp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/MyApi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="API version : "
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/MyOperator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operator : "
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"/>
+    <TextView
+        android:id="@+id/MyManufacture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMEI : "
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>

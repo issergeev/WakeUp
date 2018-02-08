@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory
+    android:title="@string/Sensors">
+    <SwitchPreference
+        android:key="@string/SwitchPrefsOne"
+        android:title="@string/LOP"
+        android:summary="@string/LOP"/>
+
+    <SwitchPreference
+    android:key="@string/SwitchPrefsTwo"
+    android:title="@string/AOD"
+    android:summary="@string/AOD"/>
+
+    <SwitchPreference
+        android:key="@string/SwitchPrefsThree"
+        android:title="@string/MOR"
+        android:summary="@string/MOR"/>
+
+    <SwitchPreference
+        android:id="@+id/SWFour"
+        android:dependency="@string/CheckboxOne"
+        android:key="@string/SwitchPrefsFour"
+        android:title="@string/DOW"
+        android:summary="@string/DOWsum"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Rights access">
+        <SwitchPreference
+            android:key="@string/CheckboxOne"
+            android:title="Administrator rights"
+            android:summaryOff="Press to enable administrator rights"
+            android:summaryOn="Press to disable administration rights"/>
+    </PreferenceCategory>
+</PreferenceScreen>

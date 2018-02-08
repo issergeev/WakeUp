@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MySettings</string>
+    <string name="Info">Information</string>
+    <string name="Sensors">Sensors</string>
+    <string name="About">About APP</string>
+    <string name="Help">Help</string>
+
+    <string name="myMenu">Main Menu</string>
+    <string name="FirstStart">FirstStart</string>
+
+    //Switches in Sensors Frame
+    <string name="LOP">Lock On Proximity</string>
+    <string name="MOR">Mute On Rotation</string>
+    <string name="AOD">Always On Display</string>
+    <string name="DOW">Disable Screen On Waiting</string>
+    <string name="DOWsum">Turns the screen off (require administration rights)</string>
+
+    <string name="SwitchPrefsOne">SwitchPrefsOne</string>
+    <string name="SwitchPrefsTwo">SwitchPrefsTwo</string>
+    <string name="SwitchPrefsThree">SwitchPrefsThree</string>
+    <string name="SwitchPrefsFour">SwitchPrefsFour</string>
+    <string name="CheckboxOne">CheckboxOne</string>
+    <string name="TimeoutValues">TimeoutValues</string>
+
+    //Administrator
+    <string name="AdminEnabled">Enabled</string>
+    <string name="ShowDialog">DialogShow</string>
+    <string name="Message">Application needs access to administrator rights to provide some of its functions.
+        Enable administrator rights now?</string>
+    <string name="ButtonOK">Enable</string>
+    <string name="ButtonCancel">Not now</string>
+    <string name="Title">Access to administrator rights</string>
+</resources>

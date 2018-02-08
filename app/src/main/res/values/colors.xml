@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006aff</color>
+    <color name="colorPrimaryDark">#0800a7</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="myCustomColor">#17273d</color>
+    <color name="myWhite">#24b1af</color>
+    <color name="myBackgroundColor">#ffa23d</color>
+    <color name="myBackGround">#ae6a36</color>
+    <color name="myGrey">#787878</color>
+
+    <color name="MySwitchActivated">#bb1de7</color>
+    <color name="MySwitchNormal">#702448</color>
+    <color name="MySwitchForeground">#1e1520</color>
+    <color name="MySwitchActivated2">#395ed9</color>
+
+    <color name="my">#000000</color>
+    <color name="myBlue">#d15e66ff</color>
+    <color name="settings_background">#c69f57</color>
+
+    <color name="drawableChecked">#b31414</color>
+    <color name="drawablePressed">#b31414</color>
+    <color name="NonVision">#00ffffff</color>
+
+    <color name="TestColor">#156968</color>
+    <color name="FloatingButtonColor">#e7da82</color>
+
+    <color name="ButtonColor">#f7c46fbc</color>
+
+    <color name="Headding">#3d6789</color>
+    <color name="MenuColor">#484848</color>
+    <color name="blackMenu">#256184</color>
+
+    <color name="colorGreen">#7ec67e</color>
+</resources>

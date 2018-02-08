@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/SettingsLayout"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/settings_background">
+
+        <ImageView
+            android:id="@+id/LogoView"
+            android:visibility="visible"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/settings_pic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Sensors"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/Headding"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/MySwitchOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="10dp"
+            android:text="Proximity lock"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            android:textColor="@color/MenuColor"
+            android:theme="@style/MySwitch"/>
+
+        <CheckBox
+            android:id="@+id/proximityCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disable lock in landscape orientation"
+            android:textSize="16sp"
+            android:textColor="@color/blackMenu"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:theme="@style/MyCheckBox"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/MySwitchTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="10dp"
+            android:text="Always on display"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            android:textColor="@color/MenuColor"
+            android:theme="@style/MySwitch"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/MySwitchThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="10dp"
+            android:text="Mute on rotation"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            android:textColor="@color/MenuColor"
+            android:theme="@style/MySwitch"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/MySwitchFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="10dp"
+            android:text="Display lock"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            android:textColor="@color/MenuColor"
+            android:theme="@style/MySwitch"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Options"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/Headding"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/AdminActivator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="10dp"
+            android:text="Administrator"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:textColor="@color/MenuColor"
+            android:theme="@style/MySwitch2"/>
+
+        <CheckBox
+            android:id="@+id/logoCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show logotype"
+            android:textSize="16sp"
+            android:textColor="@color/blackMenu"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:theme="@style/MyCheckBox"/>
+    </LinearLayout>
+</ScrollView>

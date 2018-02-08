@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/settings_background</item>
+        <item name="colorPrimary">@color/myBackGround</item>
+        <item name="colorPrimaryDark">@color/myBackGround</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Loading_Theme" parent="AlertDialog.AppCompat">
+        <item name="android:windowBackground">@drawable/loading_background</item>
+    </style>
+
+    <style name="MySwitch" parent="Theme.AppCompat.CompactMenu">
+        <item name="android:colorControlActivated">@color/MySwitchActivated</item>
+        <item name="colorSwitchThumbNormal">@color/MySwitchNormal</item>
+        <item name="android:colorForeground">@color/MySwitchForeground</item>
+    </style>
+    <style name="MySwitch2" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlActivated">@color/MySwitchActivated</item>
+        <item name="colorSwitchThumbNormal">@color/MySwitchNormal</item>
+        <item name="android:colorForeground">@color/MySwitchForeground</item>
+    </style>
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlActivated">@color/MySwitchActivated2</item>
+        <item name="colorSwitchThumbNormal">@color/MySwitchNormal</item>
+        <item name="android:colorForeground">@color/MySwitchForeground</item>
+    </style>
+</resources>
